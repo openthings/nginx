@@ -1,0 +1,4 @@
+FROM tutum/nginx
+ADD sites-enabled/ /etc/nginx/sites-enabled/
+ADD app/ /app/
+EXPOSE 80
