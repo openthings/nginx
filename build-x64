@@ -1,0 +1,3 @@
+echo "Build nginx docker for x64 platform..."
+
+docker build -t openthings/nginx:x86 -f dockerfile-x64
